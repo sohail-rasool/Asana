@@ -1,0 +1,42 @@
+img {
+    max-width: 100%;
+    height: auto;
+    transition: 0.3s ease-in-out;
+}
+ul , ol , p , h4 , a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+.detail-wraper{
+    height: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+  

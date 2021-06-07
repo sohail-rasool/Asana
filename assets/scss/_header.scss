@@ -1,0 +1,205 @@
+html,body{
+    height: 100%;
+}
+#banner{
+    height: 100%; 
+}
+.banner-img-wrapper{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.overlay-banner{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: relative;
+}
+.social-icons-wrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-list{
+    list-style: none;
+    &:first-child{
+        margin-left: 40px;
+    }
+    li{
+        display: inline-block;
+        margin: 0 10px;
+        a{
+            color: white;
+            font-size: 15px;
+            transition: 0.3s ease-in-out;
+            text-decoration: none;
+            &:hover{
+                color: $themecolor;
+            }
+        }
+    }
+}
+.search-icon-list{
+    margin-right: 40px;
+    li{
+        display: inline-block;
+        a{
+            color: white;
+            font-size: 15px;
+            transition: 0.3s ease-in-out;
+            text-decoration: none;
+            &:hover{
+                color: $themecolor;
+            }
+        }
+    }
+}
+.banner-content-box{
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+}
+.banner-content{
+    display: inline-block;
+    width: 50%;
+}
+.category-wrapper{
+    a{
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 7px 0;
+        text-decoration: none;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        transition: 0.3s ease-in-out;
+        &:hover{
+            color: $themecolor;
+            border-color:$themecolor;
+        }
+    }
+}
+.banner-heading{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: $PlayfairDisplay;
+    color: white;
+    margin: 20px 0;
+    transition: 0.3s ease-in-out;
+    &:hover{
+        color: $themecolor;
+    }
+}
+.banner-content{
+    p{
+        color: white;
+        font-size: 14px;
+
+    }
+}
+.load-more{
+    margin: 20px 0;
+    a{
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+        transition: 0.3s ease-in-out;
+        i{
+            border-right:1px solid white;
+            border-bottom: 1px solid white;
+            padding: 0 12px 7px;
+            margin-right: 11px;
+        }
+        &:hover{
+            color: $themecolor;
+            i{
+                border-color: $themecolor;
+            }
+        }
+    }
+}
+.post-meta-content{
+    color: white;
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            font-size: 12px;
+            &::after{
+                content: '.';
+                margin: 0 8px;
+            }
+            
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 12px;
+                span{
+                    color: $themecolor;
+                    font-weight: bold;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+.date{
+    color: white;
+}
+.gum-block-comment-count{
+    &::after{
+        content: '' !important;
+    }
+}
+.logo{
+    width: 25%;
+    padding-left:40px ;
+}
+.nav-links-wrapper{
+    width: 50%;
+    text-align: center;
+    .navbar-nav{
+        list-style: none;
+        display: inline-block;
+        li{
+            display: inline-block;
+            margin: 0 18px;
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 14px;
+                transition: 0.3s ease-in-out;
+                &:hover{
+                    color: $themecolor;
+                }
+            }
+        }
+    }
+}
+.more-icon{
+    width: 25%;
+    text-align: center;
+    text-align: end;
+    padding-right:40px;
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        transition: 0.3s ease-in-out;
+        &:hover{
+            color: $themecolor;
+        }
+    }
+}
+.navbar-wrapper{
+    display: flex;
+    align-items: center;
+}
+.nav-bar{
+    position: absolute;
+    bottom: 0;
+}
+
+
